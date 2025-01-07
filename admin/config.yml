@@ -1,44 +1,66 @@
 backend:
-    name: git
-    repo: KmichaelT/2025_portfolio # Replace with your GitHub repo
-    branch: main # or your production branch
-    # Below lines are often used with Netlify Identity
-    base_url: https://api.netlify.com
-    auth_endpoint: /.netlify/identity
+    name: git-gateway
+    branch: main
 
-# Where uploaded images or files will be stored in your repo
-media_folder: 'public/uploads'
-public_folder: '/uploads'
+media_folder: 'public'
+public_folder: '/'
 
 collections:
-    # 1. Pages Collection
-    - name: 'pages'
-      label: 'Pages'
-      folder: 'src/content/pages'
-      create: false # false means do not create new files, just edit existing ones
-      editor:
-          preview: false
-      slug: '{{slug}}'
-      fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'SEO Title', name: 'seo.title', widget: 'string', required: false }
-          - { label: 'SEO Description', name: 'seo.description', widget: 'text', required: false }
-          - { label: 'SEO Image', name: 'seo.image.src', widget: 'image', required: false }
-          - { label: 'Page Content', name: 'body', widget: 'markdown' }
-
-    # 2. Projects Collection
-    - name: 'projects'
-      label: 'Projects'
-      folder: 'src/content/projects'
-      create: true # Allows creating new project markdown files
-      editor:
-          preview: false
+    - name: 'blog'
+      label: 'Blog'
+      folder: 'src/content/blog'
+      create: true
       slug: '{{slug}}'
       fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Description', name: 'description', widget: 'text' }
           - { label: 'Publish Date', name: 'publishDate', widget: 'datetime' }
-          - { label: 'SEO Title', name: 'seo.title', widget: 'string', required: false }
-          - { label: 'SEO Description', name: 'seo.description', widget: 'text', required: false }
-          - { label: 'SEO Image', name: 'seo.image.src', widget: 'image', required: false }
+          - label: 'SEO'
+            name: 'seo'
+            widget: 'object'
+            fields:
+                - label: 'Image'
+                  name: 'image'
+                  widget: 'object'
+                  fields:
+                      - { label: 'Source', name: 'src', widget: 'image' }
+
+    - name: 'projects'
+      label: 'Projects'
+      folder: 'src/content/projects'
+      create: true
+      slug: '{{slug}}'
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'text' }
+          - { label: 'Publish Date', name: 'publishDate', widget: 'datetime' }
+          - label: 'SEO'
+            name: 'seo'
+            widget: 'object'
+            fields:
+                - label: 'Image'
+                  name: 'image'
+                  widget: 'object'
+                  fields:
+                      - { label: 'Source', name: 'src', widget: 'image' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+    - name: 'pages'
+      label: 'Pages'
+      folder: 'src/content/pages'
+      create: true
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - label: 'SEO'
+            name: 'seo'
+            widget: 'object'
+            fields:
+                - { label: 'Title', name: 'title', widget: 'string' }
+                - { label: 'Description', name: 'description', widget: 'text' }
+                - label: 'Image'
+                  name: 'image'
+                  widget: 'object'
+                  fields:
+                      - { label: 'Source', name: 'src', widget: 'image' }
+                      - { label: 'Alt Text', name: 'alt', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
