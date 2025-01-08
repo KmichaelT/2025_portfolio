@@ -1,19 +1,20 @@
 ---
-title: 'EcoBuddy: Sustainable Living App'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
-publishDate: 'Jan 02 2024'
+title: Love in Action
+description: Love in Action stands as a beacon of hope in Boreda, Ethiopia,
+  empowering underprivileged children through transformative projects and
+  initiatives. Launched in 2019 by a group of visionaries, this non-profit has
+  blossomed, broadening its scope and deepening its impact in the community.
+publishDate: Jan 02 2024
 seo:
   image:
-    src: '/project-1.jpg'
+    src: /lia.jpg
     alt: Project preview
 ---
+![Project preview](/lia.jpg)
 
-![Project preview](/project-1.jpg)
+Love in Action stands as a beacon of hope in Boreda, Ethiopia, empowering underprivileged children through transformative projects and initiatives. Launched in 2019 by a group of visionaries, this non-profit has blossomed, broadening its scope and deepening its impact in the community.
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
-
-**Project Overview:**
-EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
+Our partnership with Love in Action is a source of immense pride. We've infused their mission with a visual voice, designing a logo and full brand identity that reflect their core values and aspirations. Beyond branding, we've supplied an array of marketing tools and multimedia assets, enhancing their visibility and enabling them to engage more effectively with supporters and stakeholders. This collaboration aims to amplify their message and facilitate their vital work, driving positive change and fostering hope.
 
 ## Objectives
 
@@ -25,35 +26,35 @@ EcoBuddy is a revolutionary mobile application designed to make sustainable livi
 
 1. **EcoScore and Challenges:**
 
-- Users are assigned an EcoScore based on their sustainable activities and choices.
-- Daily and weekly challenges encourage users to adopt new habits and compete with friends or the community to earn EcoPoints.
+* Users are assigned an EcoScore based on their sustainable activities and choices.
+* Daily and weekly challenges encourage users to adopt new habits and compete with friends or the community to earn EcoPoints.
 
 2. **Personalized Eco-Goals:**
 
-- Users can set and track personalized eco-goals, such as reducing plastic usage, conserving water, or choosing eco-friendly transportation.
-- The app provides tips and suggestions to help users achieve their goals.
+* Users can set and track personalized eco-goals, such as reducing plastic usage, conserving water, or choosing eco-friendly transportation.
+* The app provides tips and suggestions to help users achieve their goals.
 
 3. **Green Rewards Marketplace:**
 
-- EcoPoints earned through challenges and sustainable actions can be redeemed in a virtual Green Rewards Marketplace.
-- The marketplace offers discounts on eco-friendly products, services, and even contributions to environmental causes.
+* EcoPoints earned through challenges and sustainable actions can be redeemed in a virtual Green Rewards Marketplace.
+* The marketplace offers discounts on eco-friendly products, services, and even contributions to environmental causes.
 
 4. **Community Hub:**
 
-- A community feature allows users to connect, share their eco-friendly achievements, and inspire others.
-- Users can join local eco-groups, organize clean-up events, and collaborate on sustainability projects.
+* A community feature allows users to connect, share their eco-friendly achievements, and inspire others.
+* Users can join local eco-groups, organize clean-up events, and collaborate on sustainability projects.
 
 5. **EcoEducator AI Assistant:**
 
-- An AI-powered assistant, EcoEducator, provides personalized eco-tips, facts, and information based on users' preferences and habits.
-- Users can chat with EcoEducator for instant advice on sustainable living.
+* An AI-powered assistant, EcoEducator, provides personalized eco-tips, facts, and information based on users' preferences and habits.
+* Users can chat with EcoEducator for instant advice on sustainable living.
 
 ## Technology Stack
 
-- Frontend: React Native for cross-platform mobile app development.
-- Backend: Firebase for real-time data synchronization and user authentication.
-- Database: Firestore for scalable and flexible data storage.
-- AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
+* Frontend: React Native for cross-platform mobile app development.
+* Backend: Firebase for real-time data synchronization and user authentication.
+* Database: Firestore for scalable and flexible data storage.
+* AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
 
 ## Outcome
 
@@ -61,6 +62,6 @@ EcoBuddy has successfully created a community of environmentally conscious indiv
 
 ## Client Testimonial
 
-> We couldn't be happier with the results delivered by Ethan Donovan. From the initial concept discussions to the final product, their responsiveness and collaborative approach were impressive. Our startup's website now stands out, thanks to their creative input and commitment to excellence.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+> The Ersas team provided outstanding design and development services that beautifully captured the essence of our mission at Love in Action. Their voluntary efforts and strategic expertise greatly enhanced our online presence and community engagement.
+>
+> Markos Dereje, Founder of Love In Action
